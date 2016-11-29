@@ -67,7 +67,7 @@ namespace animation_formative
                 g.Clear(Color.Black);
                 g.FillRectangle(GrassBrush, 0, 285, 600, 20);
                 SolidBrush CanonBrush = new SolidBrush(Color.Gray);
-                g.FillRectangle(CanonBrush, 206, 275, 10, 10);
+                g.FillRectangle(CanonBrush, 206, 275, 10, 10); 
                 g.FillRectangle(CanonBrush, 210, 273, 2, 2);
                 g.FillEllipse(drawBrush, x, y, 2, 2);
                 Thread.Sleep(5);
